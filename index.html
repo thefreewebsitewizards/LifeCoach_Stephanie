@@ -378,7 +378,7 @@
                 <!-- Left Side - Album Info -->
                 <div class="text-white">
                     <div class="relative mb-8 group">
-                        <div class="md:mt-0 mt-4 ml-16 md:ml-32 w-80 h-80 bg-gradient-to-br from-purple-600 to-pink-600 rounded-lg shadow-2xl overflow-hidden">
+                        <div class="w-full max-w-xs sm:max-w-sm md:max-w-md lg:w-80 h-64 sm:h-72 md:h-80 lg:h-80 mx-auto bg-gradient-to-br from-purple-600 to-pink-600 rounded-lg shadow-2xl overflow-hidden">
                             <div class="w-full h-full bg-black bg-opacity-20 flex items-center justify-center bg-cover bg-center" style="background-image: url('Images/lifeBG.webp'); background-blend-mode: overlay;">
                                 <audio id="audioPlayer" preload="metadata">
                                     <source src="Images/rec1.aac" type="audio/aac">
@@ -386,23 +386,25 @@
                                     Your browser does not support the audio element.
                                 </audio>
                                 <div class="text-center">
-                                    <div id="playButton" class="w-24 h-24 mx-auto mb-4 bg-white bg-opacity-20 rounded-full flex items-center justify-center cursor-pointer hover:bg-opacity-30 transition-all duration-300">
-                                        <svg id="playIcon" class="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                    <div id="playButton" class="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 mx-auto mb-4 bg-white bg-opacity-20 rounded-full flex items-center justify-center cursor-pointer hover:bg-opacity-30 transition-all duration-300">
+                                        <svg id="playIcon" class="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 text-white" fill="currentColor" viewBox="0 0 24 24">
                                             <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/>
                                         </svg>
-                                        <svg id="pauseIcon" class="w-12 h-12 text-white hidden" fill="currentColor" viewBox="0 0 24 24">
+                                        <svg id="pauseIcon" class="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 text-white hidden" fill="currentColor" viewBox="0 0 24 24">
                                             <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z"/>
                                         </svg>
                                     </div>
-                                    <p class="text-white text-sm opacity-80">Inspirational Music</p>
+                                    <p class="text-white text-xs sm:text-sm opacity-80">Inspirational Music</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <h2 class="ml-24 md:ml-32 tangerine text-5xl md:text-6xl font-bold text-black mb-4">Pain & Pleasure</h2>
-                    <p class="ml-40 md:ml-48 text-black text-lg mb-2">by <span class="text-black font-semibold">Psycho//Kitten</span></p>
-                    <p class="ml-40 md:ml-48 text-black mb-6">Zephyr Cove, Nevada</p>
+                    <div class="text-center lg:text-left">
+                        <h2 class="tangerine text-4xl sm:text-5xl md:text-6xl font-bold text-black mb-4">Pain & Pleasure</h2>
+                        <p class="text-black text-base sm:text-lg mb-2">by <span class="text-black font-semibold">Psycho//Kitten</span></p>
+                        <p class="text-black text-sm sm:text-base mb-6">Zephyr Cove, Nevada</p>
+                    </div>
                     
                     
                     
